@@ -1,0 +1,42 @@
+package com.entity;
+
+public class Specialist {
+
+	private int id;
+	private String specialistName;
+
+	public Specialist() {
+		super();
+	}
+
+	public Specialist(int id, String specialistName) {
+		super();
+		this.id = id;
+		this.specialistName = specialistName;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getspecialistName() {
+		return specialistName;
+	}
+
+	public void setspecialistName(String specialistName) {
+		this.specialistName = specialistName;
+	}
+
+	@Override
+	public String toString() {
+		return "Specialist [id=" + id + ", specialistName=" + specialistName + "]";
+	}
+
+
+
+
+}
