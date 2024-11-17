@@ -10,6 +10,7 @@ import com.entity.Appointment;
 
 public class AppointmentDao {
 
+	public int jack;
 	public Connection conn;
 
 	public AppointmentDao(Connection conn) {
